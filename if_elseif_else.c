@@ -4,11 +4,11 @@ int main()
     int number;
     printf("enter a number:");
     scanf("%d",&number);
-    if(number >50)
+    if(number >0)
     {
         printf("number is positive");
     }
-    else if(number <50)
+    else if(number <0)
     {
         printf("number is negative");
     }
